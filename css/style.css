@@ -1,0 +1,9 @@
+body { 
+    padding-top: 65px; 
+    height: 100%;
+  margin: 0;
+}
+
+#sectionWelcome {
+    height: 100vh;
+  }
