@@ -1,9 +1,151 @@
-body { 
-    padding-top: 65px; 
-    height: 100%;
-  margin: 0;
+
+*, ::before, *::after{
+    box-sizing: inherit
 }
 
-#sectionWelcome {
+body{
     height: 100vh;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    border-style: solid;
+    border-width: 0px;
+    padding: 0px;
+    margin: -16px;
+    text-align: center;
+   
+
+
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background: linear-gradient(65deg, #404350 0%,#181719 100%);
+    height: 700px;
+
+}
+#welcome-section>h1{
+    padding-top: 200px;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+#welcome-section>h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #b32d3e;
+}
+img{
+    height: 400px;
+    width: 350px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 3px;
+    
+}
+
+#projects{
+    background-color: #4c5e8a;
+    display: flex;
+    flex-direction: column;
+}
+
+#firstline>h1{
+    font-size: 2.5rem;
+    color: white;
+    padding: 50px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+
+}
+
+.samples{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(1, 450px);
+    justify-content: space-evenly;
+}
+
+.The-Etch-A-Scretch{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(63, 62, 62);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    height: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:white;
+}
+
+.calculator{
+    background-color: rgb(63, 62, 62);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    height: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.rock-paper-scissors {background-color: rgb(63, 62, 62);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    height: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;}
+.paragraph:hover{
+    color: rgb(231, 122, 33);
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(182, 74, 74);
+    
+
+  }
+  
+  .navbar a {
+    float: left;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 40px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: #4c5e8a;
+    
   }
