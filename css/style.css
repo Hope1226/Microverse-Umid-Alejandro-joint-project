@@ -4,6 +4,9 @@
 }
 
 body{
+    padding-top: 65px; 
+    height: 100%;
+    margin: 0;
     height: 100vh;
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
@@ -21,6 +24,7 @@ main{
 }
 
 #welcome-section{
+  height: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
